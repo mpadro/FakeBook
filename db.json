@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "mpadro",
+      "password": "1234",
+      "name": "Marcelo Padro",
+      "birthdate": "10/06/1988",
+      "marital_status": "Casado",
+      "hobbie": "Pescar",
+      "friends": [
+        2,
+        4
+      ],
+      "posts": [
+        {
+          "postid": 1,
+          "content": "Me Gusta el aaaaarte bastaaante. Me gusta liniersssssssss, cuando sear grande voy escribir comics... va, en realidad no lo se, todavia no soy graaaande",
+          "likes": 45,
+          "date": "06/01/2017 23:53"
+        },
+        {
+          "postid": 2,
+          "content": "Otro post de Marcelo",
+          "likes": 11,
+          "date": "26/10/2016 21:34"
+        },
+        {
+          "postid": 3,
+          "content": "Aca, un calorrrrr",
+          "likes": 15,
+          "date": "26/10/2017 17:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": "mberlot",
+      "password": "4321",
+      "name": "Matias Berlot",
+      "birthdate": "20/11/1985",
+      "marital_status": "Casado",
+      "hobbie": "Viciar",
+      "friends": [
+        3,
+        1
+      ],
+      "posts": [
+        {
+          "postid": 1,
+          "content": "Me Gusta el viiicio",
+          "likes": 32,
+          "date": "26/08/2017 18:24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user": "fgomez",
+      "password": "1234",
+      "name": "Fede Gomez",
+      "birthdate": "20/01/1981",
+      "marital_status": "Soltero",
+      "hobbie": "Ordenar",
+      "friends": [
+        1
+      ],
+      "posts": [
+        {
+          "postid": 1,
+          "content": "Me Gusta el ooooorden",
+          "likes": 31,
+          "date": "26/10/2017 15:25"
+        },
+        {
+          "postid": 2,
+          "content": "A veces ordeno cooosas",
+          "likes": 30,
+          "date": "26/10/2017 10:25"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user": "gbartoli",
+      "password": "1234",
+      "name": "Gerardo Bartoli",
+      "birthdate": "20/06/1983",
+      "marital_status": "Soltero",
+      "hobbie": "Mirar videos en internet",
+      "friends": [
+        2
+      ],
+      "posts": [
+        {
+          "postid": 1,
+          "content": "El que no arriesga no choca... nunca lo olvides",
+          "likes": 36,
+          "date": "26/10/2017 11:25"
+        }
+      ]
+    }
+  ]
+}
