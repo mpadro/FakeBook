@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.like-img{
+    height: 30px;
+    width:30px;
+}
+
+.btn-like{
+    height: 35px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 246, 245);
+    border-color: green;
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+

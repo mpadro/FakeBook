@@ -1,0 +1,2 @@
+<app-friend *ngFor="let user of users" class="col-lg-4" [user]="user" [isFriend]="isFriend(user.id)" (onFollow)="updateFriend($event)">
+</app-friend>

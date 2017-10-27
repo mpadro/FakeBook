@@ -1,0 +1,47 @@
+<div class="form-horizontal container profile-form">
+  <fieldset>
+    <legend class="title">Mi Perfil</legend>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Usuario</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> {{user.user }}</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Contraseña</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> Ja Ja, mira si te la voy a decir.</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Nombre</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> {{user.name }}</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Fecha de Nacimiento</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> {{user.birthdate}}</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Edad</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> {{user.birthdate | Age}}</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Hobbies</label>
+      <div class="col-lg-8">
+        <span class="form-control" id="spamUser"> {{user.hobbie}}</span>
+      </div>
+    </div>
+    <div class="form-group">
+        <label class="col-lg-2 control-label">Amigos</label>
+        <div class="col-lg-8">
+          <span *ngFor="let friend of friends" class="form-control" id="spamUser"> {{friend.name}}</span>
+        </div>
+      </div>
+  </fieldset>
+</div>

@@ -1,0 +1,10 @@
+<div class="container bs-docs-section col-log-12 bs-component" *ngFor='let post of posts'>
+  <div class="jumbotron">
+    <h6 class="pull-right"> {{post.date | PostDate}} </h6>
+    <h4>{{post.username}}</h4>
+    <p>{{post.content}}</p>
+    <h5> Gente que le copó: {{post.likes}} </h5>
+    <a class="btn btn-primary btn-sm pull-right" LikeButton (click)="like(post)">
+         Me Gusta!!!</a>
+  </div>
+</div>
