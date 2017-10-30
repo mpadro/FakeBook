@@ -11,7 +11,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileComponent implements OnInit {
   public user: User;
   public friends: User[];
-  
+
   constructor(private authenticationService: AuthenticationService, private dataService: DataService) { }
 
   ngOnInit() {
@@ -20,7 +20,9 @@ export class ProfileComponent implements OnInit {
   }
 
   getFriends() {
-    this.dataService.getUsers(this.user.friends)
-    .subscribe(users => this.friends= users)
+    if (this.user.friends.length > 0 ) {
+      this.dataService.getUsers(this.user.friends)
+        .subscribe(users => this.friends = users)
+    }
   }
 }
